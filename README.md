@@ -20,3 +20,12 @@ These are fantastic tools that provide features like dashboards, seamless integr
     - Comet ML (used by Google AI, HuggingFace, etc.)
     - Neptune (used by Roche, NewYorker, etc.)
     - Weights and Biases (used by Open AI, Toyota Research, etc.)
+
+## convert notebook to markdown
+
+```shell
+    pip install nbconvert
+    sudo apt-get install pandoc
+    jupyter nbconvert --to markdown notebook.ipynb
+
+```
